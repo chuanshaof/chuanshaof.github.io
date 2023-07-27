@@ -21,15 +21,16 @@ const HeroSection = () => {
           />
         </div>
         <div className="md:mt-2 md:w-3/5">
-          <h1 className="text-4xl font-bold mt-6 md:mt-0 md:text-7xl">
-            Hi, I'm Chuan Shao
-          </h1>
+          <p className="text-lg pt-5">Hi there, I'm</p>
+          <h1 className="text-4xl font-bold md:text-7xl">Chuan Shao</h1>
           {/* TODO: Change this font? */}
-          <p className="text-lg mt-4 mb-6 md:text-2xl">
-            I'm a penultimate computer science student at Singapore University Of Technology and Design (SUTD)
+          <p className="text-lg mt-4 mb-6 md:text-xl">
+            A penultimate Computer Science undergraduate at Singapore University
+            Of Technology and Design (SUTD)
           </p>
         </div>
       </div>
+      {/* TODO: Make this responsive to all screen sizes to always be shown */}
       <div className="flex flex-row items-center text-center justify-center ">
         <Link
           to="about"

@@ -1,9 +1,11 @@
-import React from "react"
-import Image from "next/image"
+import React from "react";
+import python from "programming-languages-logos/src/python/python.svg";
 
+// TODO: Add logo here
 const skills = [
-  { skill: "HTML" },
-  { skill: "CSS" },
+  { skill: "Java" },
+  { skill: "Jest" },
+  { skill: "Selenium" },
   { skill: "JavaScript" },
   { skill: "TypeScript" },
   { skill: "Python" },
@@ -12,8 +14,9 @@ const skills = [
   { skill: "Tailwind CSS" },
   { skill: "Git" },
   { skill: "GitHub" },
-  { skill: "Jupyter Notebooks" },
-]
+  { skill: "Firebase" },
+  { skill: "MySQL" },
+];
 
 const AboutSection = () => {
   return (
@@ -29,6 +32,21 @@ const AboutSection = () => {
             <h1 className="text-center text-2xl font-bold mb-6 md:text-left">
               Get to know me!
             </h1>
+            <p>Hi, I am Chuan Shao, a</p>
+            <p>
+              Currently, I am a penultimate undergraduate student at the
+              Singapore University of Technology and Design (SUTD) pursing a BS
+              in Computer Science. Expected to graduate in 2024.
+            </p>
+            <p>
+              In my free time, I enjoy cooking. My favourite dish to prepare is
+              Rosti, for its simplicity and its ability to be able to be paired
+              with anything. Eat it plain or pair it with anything.
+            </p>
+            <p>
+              I believe that life is simple. Do good and good will come to you.
+              No frills needed.
+            </p>
           </div>
           <div className="text-center md:w-1/2 md:text-left">
             <h1 className="text-2xl font-bold mb-6">My Skills</h1>
@@ -41,21 +59,14 @@ const AboutSection = () => {
                   >
                     {item.skill}
                   </p>
-                )
+                );
               })}
             </div>
-            <Image
-              src="/hero-image.png"
-              alt=""
-              width={325}
-              height={325}
-              className="hidden md:block md:relative md:bottom-4 md:left-32 md:z-0"
-            />
           </div>
         </div>
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default AboutSection
+export default AboutSection;
