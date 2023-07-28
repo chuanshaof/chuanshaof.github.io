@@ -5,11 +5,11 @@ import { BsGithub, BsArrowUpRightSquare } from "react-icons/bs";
 
 const experiences = [
   {
-    name: "",
-    description: "",
-    image: "",
-    github: "",
-    link: "",
+    organisation: "",
+    title: "",
+    dateStart: "",
+    dateEnd: "",
+    description: "",    
   },
 ];
 
