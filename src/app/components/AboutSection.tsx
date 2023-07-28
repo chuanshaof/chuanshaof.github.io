@@ -51,15 +51,15 @@ const AboutSection = () => {
             </h1>
             <div className="space-y-4">
               <p>
-                Hi! I'm Chuan Shao, a penultimate undergraduate student at the
+                Hi! I&apos;m Chuan Shao, a penultimate undergraduate student at the
                 Singapore University of Technology and Design (SUTD), pursuing a
-                B.Eng in Computer Science and Design. I'm set to graduate in
+                B.Eng in Computer Science and Design. I&apos;m set to graduate in
                 2024.
               </p>
               <p>
-                Growing up, I've always been captivated by games and movies,
+                Growing up, I&apos;ve always been captivated by games and movies,
                 which sparked my interest in tech and its potential to create
-                amazing experiences. Now, as I delve into the world of tech, I'm
+                amazing experiences. Now, as I delve into the world of tech, I&apos;m
                 determined to contribute and turn once-perceived impossibilities
                 into reality.
               </p>
