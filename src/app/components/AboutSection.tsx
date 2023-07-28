@@ -14,22 +14,25 @@ import git from "devicon/icons/git/git-original.svg";
 import firebase from "devicon/icons/firebase/firebase-plain.svg";
 import mysql from "devicon/icons/mysql/mysql-original.svg";
 import pandas from "devicon/icons/pandas/pandas-original.svg";
+import googleCloud from "devicon/icons/googlecloud/googlecloud-original.svg";
+import heroku from "devicon/icons/heroku/heroku-original.svg";
 
-// TODO: Add logo here
 const skills = [
+  { skill: "Python", logo: python },
   { skill: "Java", logo: java },
-  { skill: "Jest", logo: jest },
-  { skill: "Selenium", logo: selenium },
   { skill: "JavaScript", logo: javascript },
   { skill: "TypeScript", logo: typescript },
-  { skill: "Python", logo: python },
+  { skill: "Git", logo: git },
   { skill: "React", logo: react },
   { skill: "Next.js", logo: nextjs },
+  { skill: "Jest", logo: jest },
+  { skill: "Selenium", logo: selenium },
   { skill: "Tailwind CSS", logo: tailwind },
-  { skill: "Git", logo: git },
   { skill: "Firebase", logo: firebase },
   { skill: "MySQL", logo: mysql },
   { skill: "Pandas", logo: pandas },
+  { skill: "Google Cloud", logo: googleCloud },
+  { skill: "Heroku", logo: heroku },
 ];
 
 const AboutSection = () => {
@@ -46,21 +49,36 @@ const AboutSection = () => {
             <h1 className="text-center text-2xl font-bold mb-6 md:text-left">
               Get to know me!
             </h1>
-            <p>Hi, I am Chuan Shao, a</p>
-            <p>
-              Currently, I am a penultimate undergraduate student at the
-              Singapore University of Technology and Design (SUTD) pursing a
-              B.Eng in Computer Science. Expected to graduate in 2024.
-            </p>
-            <p>
-              In my free time, I enjoy cooking. My favourite dish to prepare is
-              Rosti, for its simplicity and its ability to be able to be paired
-              with anything. Eat it plain or pair it with anything.
-            </p>
-            <p>
-              I believe that life is simple. Do good and good will come to you.
-              No frills needed.
-            </p>
+            <div className="space-y-4">
+              <p>
+                Hi! I'm Chuan Shao, a penultimate undergraduate student at the
+                Singapore University of Technology and Design (SUTD), pursuing a
+                B.Eng in Computer Science and Design. I'm set to graduate in
+                2024.
+              </p>
+              <p>
+                Growing up, I've always been captivated by games and movies,
+                which sparked my interest in tech and its potential to create
+                amazing experiences. Now, as I delve into the world of tech, I'm
+                determined to contribute and turn once-perceived impossibilities
+                into reality.
+              </p>
+              <p>
+                Beyond tech, I love cooking. My favourite dish to prepare is
+                Rösti—a simple yet satisfying dish that is able to be paired
+                with anything. No frills needed.
+              </p>
+              <p>
+                Reach out to me at{" "}
+                <a
+                  href="mailto:chuanshaof@gmail.com"
+                  className="font-medium text-blue-600 dark:text-blue-500 hover:underline"
+                >
+                  chuanshaof@gmail.com
+                </a>
+                !
+              </p>
+            </div>
           </div>
           <div className="text-center md:w-1/2 md:text-left">
             <h1 className="text-2xl font-bold mb-6">My Skills</h1>
