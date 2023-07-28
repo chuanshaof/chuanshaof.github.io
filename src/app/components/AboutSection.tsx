@@ -1,21 +1,35 @@
 import React from "react";
-import python from "programming-languages-logos/src/python/python.svg";
+import Image from "next/image";
+
+import python from "devicon/icons/python/python-original.svg";
+import java from "devicon/icons/java/java-original.svg";
+import javascript from "devicon/icons/javascript/javascript-original.svg";
+import typescript from "devicon/icons/typescript/typescript-original.svg";
+import jest from "devicon/icons/jest/jest-plain.svg";
+import selenium from "devicon/icons/selenium/selenium-original.svg";
+import react from "devicon/icons/react/react-original.svg";
+import nextjs from "devicon/icons/nextjs/nextjs-original.svg";
+import tailwind from "devicon/icons/tailwindcss/tailwindcss-plain.svg";
+import git from "devicon/icons/git/git-original.svg";
+import firebase from "devicon/icons/firebase/firebase-plain.svg";
+import mysql from "devicon/icons/mysql/mysql-original.svg";
+import pandas from "devicon/icons/pandas/pandas-original.svg";
 
 // TODO: Add logo here
 const skills = [
-  { skill: "Java" },
-  { skill: "Jest" },
-  { skill: "Selenium" },
-  { skill: "JavaScript" },
-  { skill: "TypeScript" },
-  { skill: "Python" },
-  { skill: "React" },
-  { skill: "Next.js" },
-  { skill: "Tailwind CSS" },
-  { skill: "Git" },
-  { skill: "GitHub" },
-  { skill: "Firebase" },
-  { skill: "MySQL" },
+  { skill: "Java", logo: java },
+  { skill: "Jest", logo: jest },
+  { skill: "Selenium", logo: selenium },
+  { skill: "JavaScript", logo: javascript },
+  { skill: "TypeScript", logo: typescript },
+  { skill: "Python", logo: python },
+  { skill: "React", logo: react },
+  { skill: "Next.js", logo: nextjs },
+  { skill: "Tailwind CSS", logo: tailwind },
+  { skill: "Git", logo: git },
+  { skill: "Firebase", logo: firebase },
+  { skill: "MySQL", logo: mysql },
+  { skill: "Pandas", logo: pandas },
 ];
 
 const AboutSection = () => {
@@ -35,8 +49,8 @@ const AboutSection = () => {
             <p>Hi, I am Chuan Shao, a</p>
             <p>
               Currently, I am a penultimate undergraduate student at the
-              Singapore University of Technology and Design (SUTD) pursing a BS
-              in Computer Science. Expected to graduate in 2024.
+              Singapore University of Technology and Design (SUTD) pursing a
+              B.Eng in Computer Science. Expected to graduate in 2024.
             </p>
             <p>
               In my free time, I enjoy cooking. My favourite dish to prepare is
@@ -55,8 +69,15 @@ const AboutSection = () => {
                 return (
                   <p
                     key={idx}
-                    className="bg-gray-200 px-4 py-2 mr-2 mt-2 text-gray-500 rounded font-semibold"
+                    className="flex flex-row bg-gray-200 px-4 py-2 mr-2 mt-2 text-gray-500 rounded font-semibold"
                   >
+                    <Image
+                      src={item.logo}
+                      alt={item.skill}
+                      height="15"
+                      width="15"
+                      className="mr-2"
+                    />
                     {item.skill}
                   </p>
                 );
