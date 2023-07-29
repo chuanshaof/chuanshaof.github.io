@@ -38,8 +38,8 @@ const skills = [
 const AboutSection = () => {
   return (
     <section id="about">
-      <div className="my-12 pb-12 md:pt-16 md:pb-48">
-        <h1 className="text-center font-bold text-4xl">
+      <div className="pb-12 md:pb-48">
+        <h1 className="my-10 text-center font-bold text-4xl">
           About Me
           <hr className="w-6 h-1 mx-auto my-4 bg-teal-500 border-0 rounded"></hr>
         </h1>
@@ -51,22 +51,22 @@ const AboutSection = () => {
             </h1>
             <div className="space-y-4">
               <p>
-                Hi! I&apos;m Chuan Shao, a penultimate undergraduate student at the
-                Singapore University of Technology and Design (SUTD), pursuing a
-                B.Eng in Computer Science and Design. I&apos;m set to graduate in
-                2024.
+                Hi! I&apos;m Chuan Shao, a penultimate undergraduate student at
+                the Singapore University of Technology and Design (SUTD),
+                pursuing a B.Eng in Computer Science and Design. I&apos;m set to
+                graduate in 2024.
               </p>
               <p>
-                Growing up, I&apos;ve always been captivated by games and movies,
-                which sparked my interest in tech and its potential to create
-                amazing experiences. Now, as I delve into the world of tech, I&apos;m
-                determined to contribute and turn once-perceived impossibilities
-                into reality.
+                Growing up, I&apos;ve always been captivated by games and
+                movies, which sparked my interest in tech and its potential to
+                create amazing experiences. Now, as I delve into the world of
+                tech, I&apos;m determined to contribute and turn once-perceived
+                impossibilities into reality.
               </p>
               <p>
                 Beyond tech, I love cooking. My favourite dish to prepare is
                 Rösti—a simple yet satisfying dish that is able to be paired
-                with anything. No frills needed.
+                with anything.
               </p>
               <p>
                 Reach out to me at{" "}
