@@ -8,7 +8,7 @@ const projects = [
   {
     name: "Welcome Onboard!",
     description: "",
-    image: "",
+    image: "/src/images/welcome_onboard.png",
     github:
       "https://github.com/Service-Design-Studio/final-project-group-2-designerdz",
     link: "https://sites.google.com/mymail.sutd.edu.sg/team2-designerdz/",
