@@ -77,7 +77,7 @@ const ExperiencesSection = () => {
                   </div>
                   <div className="text-base font-normal text-gray-600 dark:text-gray-300">
                     {item.description.map((text) => {
-                      return <p className="mb-1.5">{text}</p>;
+                      return <p key={idx} className="mb-1.5">{text}</p>;
                     })}
                   </div>
                 </li>
