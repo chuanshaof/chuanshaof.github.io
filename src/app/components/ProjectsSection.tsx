@@ -7,11 +7,36 @@ import { BsGithub, BsArrowUpRightSquare } from "react-icons/bs";
 const projects = [
   {
     name: "Welcome Onboard!",
-    description: "",
-    image: "/src/images/welcome_onboard.png",
+    description: `Welcome Onboard! is a web app built in collaboration with DBS aimed to reduce the drop-off rate during their current onboarding process.`,
+    // languages: [{ logo: "", skill: "" }],
+    image: "/welcome-onboard.png",
     github:
       "https://github.com/Service-Design-Studio/final-project-group-2-designerdz",
     link: "https://sites.google.com/mymail.sutd.edu.sg/team2-designerdz/",
+  },
+  {
+    name: "Productions Telegram Bot",
+    description: `First ever personal project aimed to tackle my club's, SUTD Production, problems with outreach to experienced non-active members.`,
+    // languages: [{ logo: "", skill: "" }],
+    image: "/sutdproductions.png",
+    link: "",
+    github: "https://github.com/chuanshaof/SUTDProductionsBot",
+  },
+  {
+    name: "Study Buddy",
+    description: `Study Buddy is an android application created to encourage students to form study groups and make new friends while on the journey of learning. `,
+    // languages: [{ logo: "", skill: "" }],
+    image: "/studybuddy.png",
+    link: "https://istd.sutd.edu.sg/term4-design-exhibition/50001/study-buddy",
+    github: "https://github.com/chuanshaof/50.001-StudyBuddy",
+  },
+  {
+    name: "And many more!",
+    description: `Click the link below to view my GitHub link for more projects that I have done!`,
+    // languages: [{ logo: "", skill: "" }],
+    image: "/github.png",
+    link: "https://github.com/chuanshaof",
+    github: "",
   },
 ];
 
@@ -31,15 +56,13 @@ const ProjectsSection = () => {
                 <SlideUp offset="-300px 0px -300px 0px">
                   <div className="flex flex-col  animate-slideUpCubiBezier animation-delay-2 md:flex-row md:space-x-12">
                     <div className=" md:w-1/2">
-                      <Link href={project.link}>
-                        <Image
-                          src={project.image}
-                          alt={project.name}
-                          width={1000}
-                          height={1000}
-                          className="rounded-xl shadow-xl hover:opacity-70"
-                        />
-                      </Link>
+                      <Image
+                        src={project.image}
+                        alt={project.name}
+                        width={1920}
+                        height={1024}
+                        className="rounded-xl shadow-xl"
+                      />
                     </div>
                     <div className="mt-8 md:w-1/2">
                       <h1 className="text-4xl font-bold mb-6">
@@ -49,12 +72,16 @@ const ProjectsSection = () => {
                         {project.description}
                       </p>
                       <div className="flex flex-row align-bottom space-x-4">
-                        <Link href={project.github} target="_blank">
-                          <BsGithub
-                            size={30}
-                            className="hover:-translate-y-1 transition-transform cursor-pointer"
-                          />
-                        </Link>
+                        {project.github ? (
+                          <Link href={project.github} target="_blank">
+                            <BsGithub
+                              size={30}
+                              className="hover:-translate-y-1 transition-transform cursor-pointer"
+                            />
+                          </Link>
+                        ) : (
+                          <></>
+                        )}
                         {project.link ? (
                           <Link href={project.link} target="_blank">
                             <BsArrowUpRightSquare

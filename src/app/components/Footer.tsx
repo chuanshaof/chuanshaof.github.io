@@ -14,7 +14,6 @@ const Footer = () => {
         <div className="flex flex-row items-center justify-center space-x-1 text-neutral-500 dark:text-neutral-100">
           © 2023 Foo Chuan Shao<a href="/" className="hover:underline"></a>
         </div>
-        {/* TODO: Add email/contact me footer here */}
         <div className="flex flex-row items-center justify-center space-x-2 mb-1">
           <a href="https://github.com/chuanshaof" rel="noreferrer" target="_blank">
             <AiOutlineGithub
