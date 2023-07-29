@@ -83,6 +83,34 @@ export default function Navbar() {
                   </Link>
                 );
               })}
+
+              <a
+                href="https://drive.google.com/file/d/1hjWl_Z_ccCkb3vm2_BEoU4Sl1ZFdutGp/view?usp=sharing"
+                target="_blank"
+                className="inline-flex items-center justify-center px-3 py-2.5 text-base font-medium rounded-lg 
+                text-neutral-900 bg-gray-100 
+                hover:text-neutral-500 hover:bg-gray-200 
+                dark:text-neutral-100 dark:bg-gray-600 
+                dark:hover:text-white dark:hover:bg-gray-500"
+              >
+                <span className="w-full">Resume</span>
+                <svg
+                  className="w-4 h-4 ml-2"
+                  aria-hidden="true"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 14 10"
+                >
+                  <path
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M1 5h12m0 0L9 1m4 4L9 9"
+                  />
+                </svg>
+              </a>
+
               {currentTheme === "dark" ? (
                 <button
                   onClick={() => setTheme("light")}
