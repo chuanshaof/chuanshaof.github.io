@@ -7,7 +7,7 @@ const experiences = [
   {
     dateStart: "MAY 2023",
     dateEnd: "SEP 2023",
-    organisation: "Defence Science Technology Agency (DSTA)",
+    organisation: "Defence Science and Technology Agency (DSTA)",
     title: "Software Developer Intern",
     description: [
       `During my second role in DSTA, I undertook the role of a Software Developer 
@@ -23,7 +23,7 @@ const experiences = [
   {
     dateStart: "JAN 2023",
     dateEnd: "MAY 2023",
-    organisation: "Defence Science Technology Agency (DSTA)",
+    organisation: "Defence Science and Technology Agency (DSTA)",
     title: "Product Manager Intern",
     description: [
       `In my first role in DSTA,  I undertook the role of a Product Manager (PM) 
