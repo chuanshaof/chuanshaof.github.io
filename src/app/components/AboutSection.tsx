@@ -16,13 +16,15 @@ import mysql from "devicon/icons/mysql/mysql-original.svg";
 import pandas from "devicon/icons/pandas/pandas-original.svg";
 import googleCloud from "devicon/icons/googlecloud/googlecloud-original.svg";
 import heroku from "devicon/icons/heroku/heroku-original.svg";
+import fastapi from "devicon/icons/fastapi/fastapi-original.svg"
+import aws from "devicon/icons/amazonwebservices/amazonwebservices-original.svg"
 
 const skills = [
   { skill: "Python", logo: python },
   { skill: "Java", logo: java },
   { skill: "JavaScript", logo: javascript },
   { skill: "TypeScript", logo: typescript },
-  { skill: "Git", logo: git },
+  { skill: "FastAPI", logo: fastapi },
   { skill: "React", logo: react },
   { skill: "Next.js", logo: nextjs },
   { skill: "Jest", logo: jest },
@@ -33,6 +35,8 @@ const skills = [
   { skill: "Pandas", logo: pandas },
   { skill: "Google Cloud", logo: googleCloud },
   { skill: "Heroku", logo: heroku },
+  { skill: "AWS", logo: aws },
+  { skill: "Git", logo: git },
 ];
 
 const AboutSection = () => {
