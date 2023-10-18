@@ -6,6 +6,24 @@ import { BsGithub, BsArrowUpRightSquare } from "react-icons/bs";
 
 const projects = [
   {
+    name: "PSA CodeSprint 2023",
+    description: `Over the course of 3 days, we thought of ways to bolster port competitiveness using Machine Learning and GenAI and developed it!`,
+    // languages: [{ logo: "", skill: "" }],
+    image: "/PSA-CodeSprint.png",
+    github:
+      "https://github.com/59CRAWL/59CRAWL",
+    link: "https://www.linkedin.com/feed/update/urn:li:activity:7118209847644356608/",
+  },
+  {
+    name: "GIC CodeToImpact 2023",
+    description: `In this hackathon, over 24 hours, I along with 3 strangers developed and deployed a dashboard application with GenAI. Really exciting and insightful process!`,
+    // languages: [{ logo: "", skill: "" }],
+    image: "/GIC-CodeToImpact.jpg",
+    github:
+      "https://github.com/chuanshaof/GIC-CodeToImpact2023",
+    link: "https://gic.careers/events/codetoimpact2023/",
+  },
+  {
     name: "Welcome Onboard!",
     description: `Welcome Onboard! is a web app built in collaboration with DBS aimed to reduce the drop-off rate during their current onboarding process.`,
     // languages: [{ logo: "", skill: "" }],
@@ -13,22 +31,6 @@ const projects = [
     github:
       "https://github.com/Service-Design-Studio/final-project-group-2-designerdz",
     link: "https://sites.google.com/mymail.sutd.edu.sg/team2-designerdz/",
-  },
-  {
-    name: "Productions Telegram Bot",
-    description: `First ever personal project aimed to tackle my club's, SUTD Production, problems with outreach to experienced non-active members.`,
-    // languages: [{ logo: "", skill: "" }],
-    image: "/sutdproductions.png",
-    link: "",
-    github: "https://github.com/chuanshaof/SUTDProductionsBot",
-  },
-  {
-    name: "Study Buddy",
-    description: `Study Buddy is an android application created to encourage students to form study groups and make new friends while on the journey of learning. `,
-    // languages: [{ logo: "", skill: "" }],
-    image: "/studybuddy.png",
-    link: "https://istd.sutd.edu.sg/term4-design-exhibition/50001/study-buddy",
-    github: "https://github.com/chuanshaof/50.001-StudyBuddy",
   },
   {
     name: "And many more!",
